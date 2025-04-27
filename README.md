@@ -109,8 +109,7 @@ Each main section is clearly commented like this:
   ```
   git checkout -b section-hero-redesign
   ```
-- Name your branch clearly based on your section.
-- After completing your work, **push your branch** and create a **Pull Request**.
+- After completing your work, **push to branch associated with your task** and create a **Pull Request**.
 - Merge only after review.
 
 ---
