@@ -41,12 +41,12 @@ README.md
 | Section | Contributor | Status |
 |:--------|:------------|:-------|
 | Footer-Contact Section Redesign | JuniorCarti | Open |
-| Portfolio Work Section Design | JuniorCarti | Open |
-| Expertise Stats Section Redesign | Mphohlalele90 | Open |
-| Skills Section Enhancement | Kesa1203 | Open |
-| Services Section Update | yatiba291 | Open |
-| Portfolio Bio Page Enhancement | LusandaMO | Open |
-| Hero Section Redesign | LB-Segole | Open |
+| Portfolio Work Section Design | Mphohlalele90 | Open |
+| Expertise Stats Section Redesign | Kesa1203| Open |
+| Skills Section Enhancement | yatiba291 | Open |
+| Services Section Update | LusandaMO | Open |
+| Portfolio Bio Page Enhancement | LB-Segole | Open |
+| Hero Section Redesign | FaithKMuasya | Open |
 
 ---
 
