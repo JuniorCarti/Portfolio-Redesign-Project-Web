@@ -69,12 +69,12 @@ README.md
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/JuniorCarti/portfolio-redesign-project.git
+   git clone https://github.com/JuniorCarti/Portfolio-Redesign-Project-Web.git
    ```
 
 2. Navigate into the project folder:
    ```bash
-   cd portfolio-redesign-project
+   cd Portfolio-Redesign-Project-Web
    ```
 
 3. Open `index.html` in your favorite browser or use the **Live Server** extension if using VSCode.
@@ -100,7 +100,3 @@ This project is licensed under the MIT License — feel free to use, modify, and
 
 Huge thanks to all contributors making this redesign possible! Let's build something amazing together. 🌟
 
----
-
-Would you also like me to create a small **CONTRIBUTING.md** file too? (where you give exact rules for PRs, branch naming, commits, etc) 🚀  
-It'll make your project even *more professional*!
