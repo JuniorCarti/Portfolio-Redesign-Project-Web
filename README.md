@@ -105,7 +105,7 @@ Each main section is clearly commented like this:
 
 # 🔀 Branching Strategy
 
-- Each contributor must **create a branch** from `main`:
+- Each contributor must **checkout from a branch** from `main`:
   ```
   git checkout -b section-hero-redesign
   ```
