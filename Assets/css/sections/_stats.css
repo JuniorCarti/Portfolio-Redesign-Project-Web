@@ -1,9 +1,120 @@
-/* 
-  === STATS STYLES ===
-  Assignee: @Mphohlalele90
-  Tasks:
-  - Counter animations
-  - Responsive number scaling
-  - Icon integration
-  - Gradient backgrounds
-*/
+/* Expertise Section */
+.expertise {
+  padding: 0 0 50px 0; 
+  background-color: #fff;
+}
+
+.expertise .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f5f5f5;
+  margin-top: 0; 
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  flex: 1;
+}
+
+.expertise-item {
+  text-align: center;
+}
+
+.expertise-item i {
+  font-size: 40px;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.expertise-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.expertise-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.profile-image {
+  flex: 0 0 30%;
+  text-align: center;
+}
+
+.profile-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Stats Section */
+.stats {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+.stat-item {
+  position: relative;
+}
+
+.progress-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: conic-gradient(#e0e0e0 0%, #e0e0e0 100%);
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: background 15s ease-in-out; 
+}
+
+.progress-circle .percentage {
+  position: absolute;
+  font-size: 1rem;
+  color: #333;
+}
+
+.counter {
+  font-size: 2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.stat-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: 1fr; 
+    gap: 30px;
+  }
+
+  .progress-circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .counter {
+    font-size: 1.5rem;
+  }
+
+  .stat-item p {
+    font-size: 0.9rem;
+  }
+}
