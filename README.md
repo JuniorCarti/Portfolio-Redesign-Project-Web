@@ -40,7 +40,7 @@ README.md
 
 | Section | Contributor | Status |
 |:--------|:------------|:-------|
-| Footer-Contact Section Redesign | JuniorCarti | Open |
+| Footer-Contact Section Redesign | Derick-Ochieng-Owino | Open |
 | Portfolio Work Section Design | Mphohlalele90 | Open |
 | Expertise Stats Section Redesign | Kesa1203| Open |
 | Skills Section Enhancement | yatiba291 | Open |
