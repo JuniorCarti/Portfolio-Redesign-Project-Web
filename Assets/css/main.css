@@ -1,0 +1,16 @@
+/*Dont write any css code here*/
+/* This is a CSS file for styling the HTML elements in the project. */  
+/*All imports will be here*/
+/* Assets/css/main.css */
+
+@import url('./base/reset.css');
+@import url('./base/variables.css');
+
+/* Sections */
+@import url('./sections/_hero.css');
+@import url('./sections/_bio.css');
+@import url('./sections/_services.css');
+@import url('./sections/_skills.css');
+@import url('./sections/_stats.css');
+@import url('./sections/_portfolio.css');
+@import url('./sections/_footer.css');
