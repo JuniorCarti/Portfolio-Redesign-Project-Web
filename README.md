@@ -1,102 +1,143 @@
-# Portfolio Redesign Project 🚀
+# 🎨 Portfolio Redesign Project
 
-Welcome to the **Portfolio Redesign Project** — a collaborative effort to redesign and enhance key sections of the portfolio site for better performance, design, and user experience.
-
----
-
-## 📋 Project Overview
-
-This project focuses on improving and redesigning the main sections of the portfolio website. Each team member is responsible for a specific section, working on a separate branch to ensure clean and organized development.
-
-After all individual improvements are completed, we will merge everything into the `main` branch to create a unified, upgraded portfolio.
+Welcome to the collaborative redesign of **John Watson's Portfolio**.  
+This project involves updating different sections of the portfolio website with modern designs and responsive layouts.
 
 ---
 
-## 📁 Project Structure
+# 📂 Project Structure
 
 ```
 Assets/
 ├── css/
 │   ├── base/
-│   └── sections/
+│   │   ├── reset.css
+│   │   └── variables.css
+│   ├── sections/
+│   │   ├── bio.css
+│   │   ├── footer.css
+│   │   ├── hero.css
+│   │   ├── portfolio.css
+│   │   ├── services.css
+│   │   ├── skills.css
+│   │   └── stats.css
+│   └── main.css    <-- imports all styles
 ├── js/
 │   └── main.js
 Documents/
 images/
-Screenshots/ (These Screenshots are to help you in redesigning the task you have been assigned)
+Screenshots/
 index.html
-LICENSE
 README.md
+LICENSE
 ```
 
-- **Base CSS**: Reset and global variables.
-- **Sections CSS**: Each portfolio section has its own CSS file under `Assets/css/sections/`.
-- **JavaScript**: Main interactivity scripts inside `Assets/js/main.js`.
-- **Images & Screenshots**: Assets used in the design.
+---
+
+# 🛠️ Current Open Sections and Assignments
+
+| Section                        | Assignee               | Status |
+|---------------------------------|-------------------------|--------|
+| Hero Section Redesign           | @FaithKMuasya           | Open   |
+| Portfolio Bio Page Enhancement  | @LB-Segole              | Open   |
+| Services Section Update         | @LusandaMO              | Open   |
+| Skills Section Enhancement      | @yatiba291              | Open   |
+| Expertise Stats Section Redesign| @Kesa1203               | Open   |
+| Portfolio Work Section Design   | @Mphohlalele90          | Open   |
+| Footer Contact Section Redesign | @Derick-Ochieng-Owino   | Open   |
 
 ---
 
-## 🛠 Active Tasks and Contributors
+# 🚀 Getting Started
 
-| Section | Contributor | Status |
-|:--------|:------------|:-------|
-| Footer-Contact Section Redesign | Derick-Ochieng-Owino | Open |
-| Portfolio Work Section Design | Mphohlalele90 | Open |
-| Expertise Stats Section Redesign | Kesa1203| Open |
-| Skills Section Enhancement | yatiba291 | Open |
-| Services Section Update | LusandaMO | Open |
-| Portfolio Bio Page Enhancement | LB-Segole | Open |
-| Hero Section Redesign | FaithKMuasya | Open |
+Follow these steps to set up the project locally:
 
----
+### 1. Clone the Repository
+```bash
+git clone https://github.com/JuniorCarti/Portfolio-Redesign-Project-Web.git
+cd Portfolio-Redesign-Project-Web
+```
 
-## 🔥 Workflow Guidelines
+### 2. Install a Live Server (Optional but Recommended)
+```bash
+npm install -g live-server
+```
 
-- Each contributor works on their **assigned section** on a **separate branch**.
-- Follow the branch naming convention:  
-  `feature/<section-name>-update`
-  
-  Example: `feature/hero-section-redesign`
-- Only modify your section’s files unless otherwise needed.
-- When modifying `index.html`, only insert your section’s HTML **inside the correct placeholder**.
-- Make sure to pull the latest changes from `main` before creating a pull request.
-- Keep commits clean and descriptive (e.g., "Added redesigned Hero Section layout").
-- After completing your section, create a Pull Request (PR) and request a review.
+Or install the **Live Server** extension in VS Code.
 
----
+### 3. Open the Project
+```bash
+code .
+```
 
-## 🚀 How to Run the Project Locally
+### 4. Run Live Server
+- Right-click on `index.html`
+- Select **"Open with Live Server"**
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/JuniorCarti/Portfolio-Redesign-Project-Web.git
-   ```
+Or launch from terminal:
 
-2. Navigate into the project folder:
-   ```bash
-   cd Portfolio-Redesign-Project-Web
-   ```
+```bash
+live-server
+```
 
-3. Open `index.html` in your favorite browser or use the **Live Server** extension if using VSCode.
+### 5. Start Contributing
+- Work only inside your assigned section.
+- Commit regularly with clear messages.
+- Open Pull Requests (PR) for review.
 
 ---
 
-## 🤝 Contribution Rules
+# 💻 How Sections Are Organized in `index.html`
 
-- Keep your code clean and well-commented.
-- Maintain consistent styling (use the existing CSS structure).
-- Respect section boundaries (only update your assigned area).
-- Always communicate major changes via GitHub Issues or Discussions.
+Each main section is clearly commented like this:
+
+```html
+<!-- ===== HERO SECTION ===== -->
+<section id="hero" class="hero">
+    <!-- Your work here -->
+</section>
+```
+
+✅ Only modify the section assigned to you.  
+✅ Do not touch other people's code to avoid conflicts.
 
 ---
 
-## 📜 License
+# 🔀 Branching Strategy
 
-This project is licensed under the MIT License — feel free to use, modify, and distribute!
+- Each contributor must **create a branch** from `main`:
+  ```
+  git checkout -b section-hero-redesign
+  ```
+- Name your branch clearly based on your section.
+- After completing your work, **push your branch** and create a **Pull Request**.
+- Merge only after review.
 
 ---
 
-### ✨ Special Thanks
+# 📚 Helpful Resources
 
-Huge thanks to all contributors making this redesign possible! Let's build something amazing together. 🌟
+- [GitHub Flow Basics](https://guides.github.com/introduction/flow/)
+- [HTML, CSS Best Practices (MDN)](https://developer.mozilla.org/en-US/)
+- [VS Code Live Server Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+---
+
+# 🤝 Contributing Guidelines
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
+
+---
+
+# ⚖️ License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
+
+# 📣 Project Coordinator
+
+- JuniorCarti (@JuniorCarti)
+
+Feel free to reach out if you have any questions or need help! 🚀✨
 
