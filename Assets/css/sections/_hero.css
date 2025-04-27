@@ -154,7 +154,42 @@ body {
 }
 
 
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212; /* Dark background */
+  color: #fff; /* White text in dark mode */
+}
 
+/* Darken other elements too, like links, headings, etc. */
+body.dark-mode .navbar {
+  background-color: #1c1c1c; /* Dark navbar */
+}
+
+body.dark-mode .hero {
+  background-color: #222222; /* Darker hero section */
+}
+
+body.dark-mode .hero-text h1,
+body.dark-mode .hero-text h2,
+body.dark-mode .hero-text p {
+  color: #fff; /* Ensure text is white in the hero section */
+}
+
+body.dark-mode .btn {
+  background-color: #019874; /* Dark mode button color */
+  color: #fff; /* Text color */
+}
+
+body.dark-mode .portfolio-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #151a1b;
+}
+
+body.dark-mode .portfolio-btn:hover {
+  background-color: #fff;
+  color: #0b2c2c;
+}
 
 
 /* Hero Section */
