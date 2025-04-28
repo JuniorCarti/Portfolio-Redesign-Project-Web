@@ -7,3 +7,124 @@
   - Responsive two-column layout
   - Dark/light mode support
 */
+
+
+html, body {
+  overflow: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+
+.bio-card {
+  background: #fff;
+  display: flex;
+  padding: 20px;
+  width: 100%;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.bio-card-image img {
+  width: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+  background-color: #38323237;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio-card-content {
+  flex: 1;
+}
+
+.bio-subtitle {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.bio-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.bio-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+.bio-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 30px;
+  margin-bottom: 20px;
+}
+
+.bio-info-item {
+  font-size: 14px;
+  color: #333;
+}
+
+.bio-social-line {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.follow-me {
+  font-size: 14px;
+  color: #0c0c0c;
+}
+
+.bio-social-icons a {
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #00b894;
+  transition: color 0.3s;
+}
+
+.bio-social-icons a:hover {
+  color: #00b894;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.bio-hire-btn, .download-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.bio-hire-btn {
+  background-color: #127b66;
+  color: #fff;
+}
+
+.download-btn {
+  background-color:#0fd57f ;
+  color:#fff ;
+}
