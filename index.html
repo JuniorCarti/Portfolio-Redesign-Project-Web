@@ -18,6 +18,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>John Watson | Web Designer & Developer</title>
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="Assets/css/sections/_hero.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
 </head>
 
 <body>
@@ -31,7 +36,73 @@
     - Background image
   -->
   <section id="hero" class="hero">
-    <!-- @hero-dev will work here -->
+    <header class="navbar">
+      <div class="container">
+          <div class="logo">
+              <img class="logo-img" src="images/logo1.png" alt="Logo"> 
+              <h3>UI Portfolio</h3>
+          </div>
+          <nav>
+              <ul class="nav-links">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <!-- Blog Dropdown -->
+                  <li class="dropdown">
+                      <a href="#">Blog ⌵</a>
+                      <ul class="dropdown-content">
+                          <li><a href="#">Latest Posts</a></li>
+                          <li><a href="#">Categories</a></li>
+                          <li><a href="#">Archives</a></li>
+                      </ul>
+                  </li>
+                  <!-- Pages Dropdown -->
+                  <li class="dropdown">
+                      <a href="#">Pages ⌵ </a>
+                      <ul class="dropdown-content">
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Services</a></li>
+                          <li><a href="#">Portfolio</a></li>
+                          <li><a href="#">Blog</a></li>
+                          <li><a href="#">Contact</a></li>
+
+
+                      </ul>
+                  </li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#" class="btn hire-btn">Hire Me</a></li>
+                  <i class="fas fa-search"></i>
+                  <i class="fas fa-moon"  id="dark-mode-icon"></i>
+              </ul>
+
+          </nav>
+
+          <div class="menu-toggle">&#9776;</div> <!-- Hamburger icon -->
+      </div>
+  </header>
+  
+
+  <!-- Hero Section -->
+  <section class="hero1">
+      <div class="container hero-content">
+          <div class="hero-text">
+              <h2>Hi, I'm John Watson</h2>
+              <h1>Web De</h1>
+              <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I can give your business a new creative start right away!</p>
+              <div class="hero-buttons">
+                  <a href="#" class="btn button-2">Hire Me</a>
+                  <a href="#" class="btn portfolio-btn">My Portfolio</a>
+              </div>
+          </div>
+          <div class="hero-image">
+              <img class="my-image" src="images/oman.png" alt="John Watson">
+          </div>
+      </div>
+  </section>
+
+  <script src="Assets/js/main.js"></script>
+
   </section>
 
   <!-- 
