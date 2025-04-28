@@ -7,3 +7,125 @@
   - Radial charts for skill levels
   - Tooltip hover states
 */
+/* Skills Section Styles */
+.skills {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 0 20px;
+}
+
+.skills-image {
+  flex: 1;
+}
+
+.skills-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.skills-content {
+  flex: 1;
+}
+
+.section-header {
+  margin-bottom: 40px;
+}
+
+.section-subtitle {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section-description {
+  color: #777;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.skills-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.skill-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.skill-percent {
+  color: #2ecc71;
+  font-weight: 600;
+}
+
+.progress-bar {
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #2ecc71;
+  border-radius: 3px;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .skills-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .skills-image, .skills-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 24px;
+  }
+  
+  .section-description {
+    font-size: 15px;
+  }
+}
