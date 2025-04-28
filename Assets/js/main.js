@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const counters = document.querySelectorAll(".counter");
-  const progressCircles = document.querySelectorAll(".progress-circle");
-  const speed = 200; 
+  const speed = 200; // Adjust speed for animation
 
   counters.forEach(counter => {
     const updateCount = () => {
@@ -18,20 +17,5 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     updateCount();
-  });
-
-  progressCircles.forEach(circle => {
-    const percentage = circle.getAttribute("data-percentage");
-    let currentPercentage = 0;
-
-    const animateCircle = () => {
-      if (currentPercentage < percentage) {
-        currentPercentage++;
-        circle.style.background = `conic-gradient(#4CAF50 ${currentPercentage}%, #e0e0e0 ${currentPercentage}%)`;
-        setTimeout(animateCircle, 10);
-      }
-    };
-
-    animateCircle();
   });
 });

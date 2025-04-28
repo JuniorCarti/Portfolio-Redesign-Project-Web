@@ -64,33 +64,10 @@
   text-align: center;
 }
 
-.stat-item {
-  position: relative;
-}
-
-.progress-circle {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: conic-gradient(#e0e0e0 0%, #e0e0e0 100%);
-  margin: 0 auto 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  transition: background 15s ease-in-out; 
-}
-
-.progress-circle .percentage {
-  position: absolute;
-  font-size: 1rem;
+.stat-item h3 {
+  font-size: 2.5rem;
   color: #333;
-}
-
-.counter {
-  font-size: 2rem;
-  color: #333;
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
 
 .stat-item p {
@@ -105,16 +82,7 @@
     gap: 30px;
   }
 
-  .progress-circle {
-    width: 80px;
-    height: 80px;
-  }
-
-  .counter {
-    font-size: 1.5rem;
-  }
-
-  .stat-item p {
-    font-size: 0.9rem;
+  .stat-item h3 {
+    font-size: 2rem;
   }
 }
