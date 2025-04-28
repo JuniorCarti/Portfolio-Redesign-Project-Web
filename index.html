@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
   <style>
     body {
       margin: 0;
@@ -8,7 +10,7 @@
     }
 
     #footer{
-      background-color: #012c3e;
+      background-color:#012c3e;
       color: #fff;
       width: 100%;
     }
@@ -34,7 +36,6 @@
       flex-wrap: wrap;
     }
 
-
     .contact-info p {
       margin: 5px 0;
     }
@@ -44,12 +45,9 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-top: 1px solid #0f2c34;
       padding: 20px;
       font-size: 14px;
-      margin-left: 0;
     }
-
 
     .social-icons a {
       color: #bbb;
@@ -60,13 +58,30 @@
 
     .icon {
       color: #bbb;
+      background-color: none;
       margin-left: 15px;
       font-size: 18px;
       text-decoration: none;
       transition: color 0.3s ease;
-      border-radius: 5cqb;
-      background-color: #0f2c34;
     }
+
+    .arrow {
+      color: #fff;
+      margin-left: 500px;
+      font-size: 18px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+      background-color: #1abc9c;
+      border-radius: 50%;      
+      padding: 10px;            
+      width: 15px;              
+      height: 15px;     
+    }
+
+    .arrow:hover {
+      background-color: #16a085; /* Darker green on hover */
+    }
+
 
     .icon:hover {
       color: #1abc9c;
@@ -181,10 +196,11 @@
       <div class="footer-top">
         <h2>UI Portfolio</h2>
         <div class="contact-info">
-          <p>📞 +12 345 678 900</p>
-          <p>✉️ info@example.com</p>
-          <p>📍 208 Avenue Street, UK - 62617</p>
+          <p><i class="fas fa-phone-alt"></i> +12 345 678 900</p>
+          <p><i class="fas fa-envelope"></i> info@example.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> 208 Avenue Street, UK - 62617</p>
         </div>
+        
       </div>
     </div>
     <div class="footer-bottom">
@@ -194,6 +210,8 @@
         <a href="#"><i class="fab fa-twitter icon" ></i></a>
         <a href="#"><i class="fab fa-google-plus-g icon"></i></a>
         <a href="#"><i class="fab fa-vk icon"></i></a>
+        <a href="#hero"><i class="fas fa-arrow-up arrow"></i>
+        </a>
       </div>
     </div>
   </footer>
