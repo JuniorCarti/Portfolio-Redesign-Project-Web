@@ -24,7 +24,7 @@ body {
   height: 100vh;
 }
 
-.card {
+.bio-card {
   background: #fff;
   display: flex;
   padding: 20px;
@@ -34,7 +34,7 @@ body {
   gap: 30px;
 }
 
-.card-image img {
+.bio-card-image img {
   width: 250px;
   border-radius: 10px;
   object-fit: cover;
@@ -48,11 +48,11 @@ body {
   align-items: center;
 }
 
-.card-content {
+.bio-card-content {
   flex: 1;
 }
 
-.subtitle {
+.bio-subtitle {
   font-size: 14px;
   color: #888;
   margin-bottom: 10px;
@@ -60,31 +60,31 @@ body {
   letter-spacing: 1px;
 }
 
-.title {
+.bio-title {
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-.description {
+.bio-description {
   font-size: 14px;
   color: #555;
   margin-bottom: 20px;
   max-width: 600px;
 }
 
-.info-grid {
+.bio-info-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px 30px;
   margin-bottom: 20px;
 }
 
-.info-item {
+.bio-info-item {
   font-size: 14px;
   color: #333;
 }
 
-.social-line {
+.bio-social-line {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -95,7 +95,7 @@ body {
   font-size: 14px;
 }
 
-.social-icons a {
+.bio-social-icons a {
   margin-right: 10px;
   text-decoration: none;
   font-size: 15px;
@@ -103,7 +103,7 @@ body {
   transition: color 0.3s;
 }
 
-.social-icons a:hover {
+.bio-social-icons a:hover {
   color: #00b894;
 }
 
@@ -111,7 +111,7 @@ body {
   margin-top: 10px;
 }
 
-.hire-btn, .download-btn {
+.bio-hire-btn, .download-btn {
   padding: 10px 20px;
   border: none;
   border-radius: 25px;
@@ -121,7 +121,7 @@ body {
   font-weight: bold;
 }
 
-.hire-btn {
+.bio-hire-btn {
   background-color: #127b66;
   color: #fff;
 }
