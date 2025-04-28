@@ -14,6 +14,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>John Watson | Web Designer & Developer</title>
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/sections/_portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
  
 </head>
 
@@ -78,92 +80,74 @@
     - Responsive layout
   -->
 <!-- Portfolio Section -->
-<section id="success-work" class="success-work">
-  <div class="section-header">
-    <h2>My Success Work</h2>
-    <p>A comprehensive portfolio of completed projects, showcasing the expertise applied and the measurable outcomes delivered.</p>
-  </div>
-
-  <!-- Filtering system -->
-  <div class="work-filters">
-    <button class="filter-btn active" data-filter="all" aria-label="Show all projects">All</button>
-    <button class="filter-btn" data-filter="web" aria-label="Show web projects">Web</button>
-    <button class="filter-btn" data-filter="app" aria-label="Show app projects">App</button>
-    <button class="filter-btn" data-filter="design" aria-label="Show design projects">Design</button>
-  </div>
-
-  <!-- Project grid (masonry layout) -->
-  <div class="work-grid">
-    <div class="work-card" data-category="web" data-case-id="e-commerce-website">
-      <div class="card-overlay">
-        <h3>E-commerce Website</h3>
-        <p>Built with React & Node.js. Boosted sales by 30%.</p>
-        <span>Skills: React, Node.js, Stripe API</span>
-        <span>Result: Increased conversions by 30%</span>
-        <div class="testimonial">
-          <p>"This project helped us streamline our sales process and improve user experience."</p>
-          <span>- NovaMarket CEO</span>
-        </div>
-        <a href="#" class="case-study-btn" aria-label="View case study for E-commerce Website">View Case Study</a>
+<section class="jw-portfolio-section">
+  <div class="jw-container">
+    <h2 class="jw-section-heading">My Success Work</h2>
+    
+    <!-- Project Grid -->
+    <div class="jw-work-grid">
+      <div class="jw-project-card">
+        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+             alt="Web Design Project" class="jw-project-image">
+      </div>
+      
+      <div class="jw-project-card">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+             alt="Mobile App Project" class="jw-project-image">
+      </div>
+      
+      <div class="jw-project-card">
+        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+             alt="Branding Project" class="jw-project-image">
+      </div>
+      
+      <div class="jw-project-card">
+        <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+             alt="UI/UX Project" class="jw-project-image">
+      </div>
+      
+      <div class="jw-project-card">
+        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+             alt="Graphic Design Project" class="jw-project-image">
+      </div>
+      
+      <div class="jw-project-card">
+        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+             alt="Development Project" class="jw-project-image">
       </div>
     </div>
-  
+  </div>
 
-    <div class="work-card" data-category="design" data-case-id="brand-identity-design">
-      <div class="card-overlay">
-        <h3>Brand Identity Design</h3>
-        <p>Created a full branding kit for a startup.</p>
-        <span>Skills: Figma, Illustrator</span>
-        <span>Result: Strengthened brand presence</span>
-        <div class="testimonial">
-          <p>"This design work was instrumental in establishing our brand's identity."</p>
-          <span>- BrightPath Studios</span> 
+  <!-- Full-width Green Brand Section with Icons -->
+  <div class="jw-brands-container">
+    <div class="jw-brands-section">
+      <div class="jw-container">
+        <div class="jw-brands-grid">
+          <div class="jw-brand-item">
+            <i class="fas fa-bread-slice jw-brand-icon"></i>
+            <span class="jw-brand-tooltip">Gluten Free</span>
+          </div>
+          <div class="jw-brand-item">
+            <i class="fas fa-spa jw-brand-icon"></i>
+            <span class="jw-brand-tooltip">Massage & Spa</span>
+          </div>
+          <div class="jw-brand-item">
+            <i class="fas fa-drumstick-bite jw-brand-icon"></i>
+            <span class="jw-brand-tooltip">Butchery</span>
+          </div>
+          <div class="jw-brand-item">
+            <i class="fas fa-leaf jw-brand-icon"></i>
+            <span class="jw-brand-tooltip">Natural</span>
+          </div>
+          <div class="jw-brand-item">
+            <i class="fas fa-wifi jw-brand-icon"></i>
+            <span class="jw-brand-tooltip">Internet</span>
+          </div>
         </div>
-        <a href="#" class="case-study-btn" aria-label="View case study for Brand Identity Design">View Case Study</a>
       </div>
     </div>
-
-    <div class="work-card" data-category="app" data-case-id="ai-powered-chatbot-support">
-      <div class="card-overlay">
-        <h3>AI-Powered Chatbot Support</h3>
-        <p>Built an AI-driven chatbot using Python, NLP, and Dialogflow, hosted on AWS.</p>
-        <span>Skills: Python, NLP, Dialogflow, AWS</span>
-        <span>Result: Reduced response time by 50% and improved customer satisfaction by 30%</span>
-        <div class="testimonial">
-          <p>"This chatbot improved our customer service by handling queries instantly."</p>
-          <span>- NovaTech Solutions</span> 
-        </div>
-        <a href="#" class="case-study-btn" aria-label="View case study for AI-Powered Chatbot Support">View Case Study</a>
-      </div>
-    </div>
-
-  
-
-  <!-- Case Study Details Section -->
-<div id="case-study-details" class="case-study-details hidden" role="region" aria-live="polite">
-  <div class="case-study-content">
-    <h2 id="case-study-title"></h2>
-    <p id="case-study-description"></p>
-    <div id="case-study-testimonial"></div>
-    <div id="case-study-skills"></div>
-    <div id="case-study-results"></div>
   </div>
-</div>
-
-<!-- Lightbox Modal -->
-<div id="lightbox" class="lightbox">
-  <div class="lightbox-content">
-    <span id="close-lightbox" class="close-lightbox" aria-label="Close lightbox">×</span>
-    <!-- Removed the image element from the lightbox -->
-    <div id="lightbox-caption" class="lightbox-caption"></div>
-  </div>
-</div>
-
-  <!-- Decorative Image at the bottom -->
-  <img src="Screenshots/6-Portfolio-Work-Section-Design.png" alt="Work Section Design" class="work-section-design">
-
 </section>
-  
 <!-- 
     ===== FOOTER SECTION =====
     Assignee: @Derick-Ochieng-Owino
