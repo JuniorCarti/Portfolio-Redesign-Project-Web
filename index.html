@@ -1,6 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #footer{
+      background-color:#012c3e;
+      color: #fff;
+      width: 100%;
+    }
+
+    .footer-container {
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .footer-top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .contact-info p {
+      margin: 5px 0;
+    }
+
+    .footer-bottom {
+      background-color: #06161d;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    .social-icons a {
+      color: #bbb;
+      margin-left: 15px;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    .icon {
+      color: #bbb;
+      background-color: none;
+      margin-left: 15px;
+      font-size: 18px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .arrow {
+      color: #fff;
+      margin-left: 500px;
+      font-size: 18px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+      background-color: #1abc9c;
+      border-radius: 50%;      
+      padding: 10px;            
+      width: 15px;              
+      height: 15px;     
+    }
+
+    .arrow:hover {
+      background-color: #16a085; /* Darker green on hover */
+    }
+
+
+    .icon:hover {
+      color: #1abc9c;
+    }
+
+    .social-icons a:hover {
+      color: #1abc9c;
+    }
+  </style>
+  <head>
   <!-- 
     ===== HEAD SECTION =====
     Assignee: @FaithKMuasya
@@ -14,8 +105,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>John Watson | Web Designer & Developer</title>
   <link rel="stylesheet" href="assets/css/main.css">
+
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
   <script src="assets/js/main.js" defer></script>
+
+  <link rel="stylesheet" href="Assets/css/sections/_hero.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+
 </head>
 
 <body>
@@ -29,7 +128,73 @@
     - Background image
   -->
   <section id="hero" class="hero">
-    <!-- @hero-dev will work here -->
+    <header class="navbar">
+      <div class="container">
+          <div class="logo">
+              <img class="logo-img" src="images/logo1.png" alt="Logo"> 
+              <h3>UI Portfolio</h3>
+          </div>
+          <nav>
+              <ul class="nav-links">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <!-- Blog Dropdown -->
+                  <li class="dropdown">
+                      <a href="#">Blog ⌵</a>
+                      <ul class="dropdown-content">
+                          <li><a href="#">Latest Posts</a></li>
+                          <li><a href="#">Categories</a></li>
+                          <li><a href="#">Archives</a></li>
+                      </ul>
+                  </li>
+                  <!-- Pages Dropdown -->
+                  <li class="dropdown">
+                      <a href="#">Pages ⌵ </a>
+                      <ul class="dropdown-content">
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Services</a></li>
+                          <li><a href="#">Portfolio</a></li>
+                          <li><a href="#">Blog</a></li>
+                          <li><a href="#">Contact</a></li>
+
+
+                      </ul>
+                  </li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#" class="btn hire-btn">Hire Me</a></li>
+                  <i class="fas fa-search"></i>
+                  <i class="fas fa-moon"  id="dark-mode-icon"></i>
+              </ul>
+
+          </nav>
+
+          <div class="menu-toggle">&#9776;</div> <!-- Hamburger icon -->
+      </div>
+  </header>
+  
+
+  <!-- Hero Section -->
+  <section class="hero1">
+      <div class="container hero-content">
+          <div class="hero-text">
+              <h2>Hi, I'm John Watson</h2>
+              <h1>Web De</h1>
+              <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I can give your business a new creative start right away!</p>
+              <div class="hero-buttons">
+                  <a href="#" class="btn button-2">Hire Me</a>
+                  <a href="#" class="btn portfolio-btn">My Portfolio</a>
+              </div>
+          </div>
+          <div class="hero-image">
+              <img class="my-image" src="images/oman.png" alt="John Watson">
+          </div>
+      </div>
+  </section>
+
+  <script src="Assets/js/main.js"></script>
+
   </section>
 
   <!-- 
@@ -152,17 +317,30 @@
     - Copyright
   -->
   <footer id="footer" class="footer">
-    <!-- @footer-dev will work here -->
+    <div class="footer-container">
+      <div class="footer-top">
+        <h2>UI Portfolio</h2>
+        <div class="contact-info">
+          <p><i class="fas fa-phone-alt"></i> +12 345 678 900</p>
+          <p><i class="fas fa-envelope"></i> info@example.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> 208 Avenue Street, UK - 62617</p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy 2025 UI Portfolio</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f icon"></i></a>
+        <a href="#"><i class="fab fa-twitter icon" ></i></a>
+        <a href="#"><i class="fab fa-google-plus-g icon"></i></a>
+        <a href="#"><i class="fab fa-vk icon"></i></a>
+        <a href="#hero"><i class="fas fa-arrow-up arrow"></i>
+        </a>
+      </div>
+    </div>
   </footer>
 
-  <!-- 
-    ===== SCRIPTS =====
-    Assignee: @FaithKMuasya
-    Tasks:
-    - Main app logic
-    - Section-specific scripts
-    - Performance optimizations
-  -->
   <script src="assets/js/main.js"></script>
 </body>
 </html>

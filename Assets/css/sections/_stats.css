@@ -1,3 +1,4 @@
+
 /* Expertise Section */
 .expertise {
   padding: 0 0 50px 0; 
@@ -90,3 +91,14 @@
     font-size: 2rem;
   }
 }
+
+/* 
+  === STATS STYLES ===
+  Assignee: @Kesa1203
+  Tasks:
+  - Counter animations
+  - Responsive number scaling
+  - Icon integration
+  - Gradient backgrounds
+*/
+
