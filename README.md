@@ -38,15 +38,27 @@ LICENSE
 
 | Section                        | Assignee               | Status |
 |---------------------------------|-------------------------|--------|
-| Hero Section Redesign           | @FaithKMuasya           | Open   |
-| Portfolio Bio Page Enhancement  | @LB-Segole              | Open   |
-| Services Section Update         | @LusandaMO              | Open   |
-| Skills Section Enhancement      | @yatiba291              | Open   |
-| Expertise Stats Section Redesign| @Kesa1203               | Open   |
-| Portfolio Work Section Design   | @Mphohlalele90          | Open   |
-| Footer Contact Section Redesign | @Derick-Ochieng-Owino   | Open   |
+| Hero Section Redesign           | @FaithKMuasya           | Done   |
+| Portfolio Bio Page Enhancement  | @LB-Segole              | Done   |
+| Services Section Update         | @LusandaMO              | Done   |
+| Skills Section Enhancement      | @yatiba291              | Done  |
+| Expertise Stats Section Redesign| @Kesa1203               | Done  |
+| Portfolio Work Section Design   | @Mphohlalele90          | Done   |
+| Footer Contact Section Redesign | @Derick-Ochieng-Owino   | Done  |
 
 ---
+## 👥 Development Team
+
+| Role                  | Team Member               |
+|-----------------------|---------------------------|
+| Project Lead          | @JuniorCarti              |
+| Hero Section          | @FaithKMuasya             | 
+| Bio Page              | @LB-Segole                |
+| Services Section      | @LusandaMO                |
+| Skills Section        | @yatiba291                |
+| Stats Section         | @Kesa1203                 |
+| Portfolio Section     | @Mphohlalele90            |
+| Footer Section        | @Derick-Ochieng-Owino     |
 
 # 🚀 Getting Started
 

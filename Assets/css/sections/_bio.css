@@ -24,21 +24,29 @@ body {
   height: 100vh;
 }
 
+
 .bio-card {
   background: #fff;
   display: flex;
   padding: 20px;
+
   max-width: 1000px;
   width: 90%;
   align-items: flex-start;
   gap: 30px;
+
+  width: 100%;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .bio-card-image img {
   width: 250px;
   border-radius: 10px;
   object-fit: cover;
-
 
   background-color: #38323237;
   padding: 20px;
@@ -63,6 +71,8 @@ body {
 .bio-title {
   font-size: 24px;
   margin-bottom: 20px;
+  color: #151414;
+
 }
 
 .bio-description {
@@ -93,6 +103,8 @@ body {
 
 .follow-me {
   font-size: 14px;
+  color: #0c0c0c;
+
 }
 
 .bio-social-icons a {

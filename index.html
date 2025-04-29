@@ -1,96 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+ 
 
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-    }
-
-    #footer{
-      background-color:#012c3e;
-      color: #fff;
-      width: 100%;
-    }
-
-    .footer-container {
-      align-items: center;
-      max-width: 1200px;
-      margin: 0 auto;
-      width: 100%;
-    }
-
-    .footer-top {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 30px;
-    }
-
-    .contact-info {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-
-    .contact-info p {
-      margin: 5px 0;
-    }
-
-    .footer-bottom {
-      background-color: #06161d;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px;
-      font-size: 14px;
-    }
-
-    .social-icons a {
-      color: #bbb;
-      margin-left: 15px;
-      font-size: 18px;
-      text-decoration: none;
-    }
-
-    .icon {
-      color: #bbb;
-      background-color: none;
-      margin-left: 15px;
-      font-size: 18px;
-      text-decoration: none;
-      transition: color 0.3s ease;
-    }
-
-    .arrow {
-      color: #fff;
-      margin-left: 500px;
-      font-size: 18px;
-      text-decoration: none;
-      transition: color 0.3s ease;
-      background-color: #1abc9c;
-      border-radius: 50%;      
-      padding: 10px;            
-      width: 15px;              
-      height: 15px;     
-    }
-
-    .arrow:hover {
-      background-color: #16a085; /* Darker green on hover */
-    }
-
-
-    .icon:hover {
-      color: #1abc9c;
-    }
-
-    .social-icons a:hover {
-      color: #1abc9c;
-    }
-  </style>
+ 
   <head>
   <!-- 
     ===== HEAD SECTION =====
@@ -107,11 +19,38 @@
   <link rel="stylesheet" href="assets/css/main.css">
 
 
+
   <link rel="stylesheet" href="Assets/css/sections/_bio.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="Assets/css/sections/_hero.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <link rel="stylesheet" href="assets/css/sections/_services.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/css/sections/_skills.css">
+
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <script src="assets/js/main.js" defer></script>
+
+  <link rel="stylesheet" href="Assets/css/sections/_hero.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="Assets/css/sections/_bio.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="Assets/css/sections/_footer.css">
+
+
+
+
+ 
+
+
 </head>
 
 <body>
@@ -204,7 +143,11 @@
     - Professional summary
     - Contact info
   -->
+
   <section id="bio" class="bio-section">
+
+  <section id="bio" class="bio">
+
     <div class="bio-card">
       <div class="bio-card-image">
         <img src="images/man.png" alt="Profile Image">
@@ -260,35 +203,211 @@
     - Icons + descriptions
     - "More services" link
   -->
-  <section id="services" class="services">
-    <!-- @services-dev will work here -->
-  </section>
+  <!-- Bootstrap CSS link must be in your <head> -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 
+
+<section id="services" class="services">
+  <div class="services-container">
+    <div class="section-header">
+      <h2 class="section-subtitle">WHAT I DO FOR YOU</h2>
+    </div>
+    
+    <div class="services-grid">
+      <!-- Service 1 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3 class="service-title">Web Development</h3>
+        <p class="service-description">
+          As a full-service web development company, we do more than just create beautiful websites and graphics for our clients.
+          We also provide a full range of services to help you grow your business online.
+        </p>
+      </div>
+      
+      <!-- Service 2 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <h3 class="service-title">App Development</h3>
+        <p class="service-description">
+          We create mobile applications that are not only functional but also visually appealing. Our team of experts will work with you to develop a custom app that meets your specific needs.
+        </p>
+      </div>
+      
+      <!-- Service 3 -->
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-camera"></i>
+        </div>
+        <h3 class="service-title">Photography</h3>
+        <p class="service-description">
+          Our photography services include everything from product photography to event coverage. We capture the essence of your brand through stunning visuals that tell your story.
+        </p>
+      </div>
+    </div>
+    
+    <div class="more-services">
+      <a href="#" class="more-link">More Services <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
   <!-- 
     ===== SKILLS SECTION =====
     Assignee: @yatiba291
     Tasks:
     - Progress bars
     - Skill categories
-    - Animated percentages
+  
   -->
   <section id="skills" class="skills">
-    <!-- @skills-dev will work here -->
+
+    <div class="skills-container">
+      <!-- Left Column - Image -->
+      <div class="skills-image">
+        <img src="https://media.istockphoto.com/id/1268307485/photo/woman-hand-with-sleep-log-or-diary-on-table-how-to-use-a-sleeping-log-to-diagnose-insomnia.jpg?s=612x612&w=0&k=20&c=euUzKQ5lJhgqD4nf3pz2Q3rZ8RX_rAPDegAaG7gfRDQ=" 
+             alt="Designer working">
+      </div>
+      
+      <!-- Right Column - Content -->
+      <div class="skills-content">
+        <div class="section-header">
+          <h2 class="section-subtitle">MY SKILLS</h2>
+          <h3 class="section-title">My Featured Skills</h3>
+          <p class="section-description">
+            Specialize in Branding and Strategy, and am passionate about 
+            creating Awareness Portfolio work. And I always ready to improve the 
+            audience with my Creativity.
+          </p>
+        </div>
+        
+        <div class="skills-progress">
+          <!-- Skill 1 -->
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">UI/UX Design</span>
+              
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 85%;"></div>
+            </div>
+          </div>
+          
+          <!-- Skill 2 -->
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Ideas & Technology</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 90%;"></div>
+            </div>
+          </div>
+          
+          <!-- Skill 3 -->
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Branding Design</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 80%;"></div>
+            </div>
+          </div>
+          
+          <!-- Skill 4 -->
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Responsive Web Design</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 95%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
+
+</section>
+   <!-- @skills-dev will work here -->
 
   <!-- 
     ===== STATS SECTION =====
-    Assignee: @Kesa1203
-    Tasks:
-    - 4 metric cards
-    - Animated counters
-    Notes:
-    - Number formatting
-    - Responsive layout
+    Assignee: @kesa1203
   -->
-  <section id="stats" class="stats">
-    <!-- @stats-dev will work here -->
+  <section id="expertise" class="expertise">
+    <div class="container">
+      <div class="expertise-grid">
+        <div class="expertise-item">
+          <i class="fab fa-wordpress"></i>
+          <div>
+            <h3>Web Development</h3>
+            <p>Custom solutions tailored to your business goals.</p>
+          </div>
+        </div>
+        <div class="expertise-item">
+          <i class="fab fa-css3-alt"></i>
+          <div>
+            <h3>Design Trends</h3>
+            <p>Modern and visually appealing designs for your brand.</p>
+          </div>
+        </div>
+        <div class="expertise-item">
+          <i class="fas fa-chart-line"></i>
+          <div>
+            <h3>Research & Analysis</h3>
+            <p>Data-driven insights to optimize your business strategies.</p>
+          </div>
+        </div>
+        <div class="expertise-item">
+          <i class="fas fa-headset"></i>
+          <div>
+            <h3>Customer Support</h3>
+            <p>Reliable and responsive support for your customers.</p>
+          </div>
+        </div>
+        <div class="expertise-item">
+          <i class="fas fa-mobile-alt"></i>
+          <div>
+            <h3>Responsive Design</h3>
+            <p>Seamless experiences across all devices and screen sizes.</p>
+          </div>
+        </div>
+        <div class="expertise-item">
+          <i class="fas fa-layer-group"></i>
+          <div>
+            <h3>PSD Design</h3>
+            <p>High-quality PSD templates for your creative projects.</p>
+          </div>
+        </div>
+      </div>
+      <div class="profile-image">
+        <img src="images/profile.png" alt="Profile Image" />
+      </div>
+    </div>
   </section>
+
+  <section id="stats" class="stats">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <h3 class="counter" data-target="135">0</h3>
+        <p>Finished Projects</p>
+      </div>
+      <div class="stat-item">
+        <h3 class="counter" data-target="225">0</h3>
+        <p>Working Hours</p>
+      </div>
+      <div class="stat-item">
+        <h3 class="counter" data-target="115">0</h3>
+        <p>Online Support</p>
+      </div>
+      <div class="stat-item">
+        <h3 class="counter" data-target="272">0</h3>
+        <p>Happy Customers</p>
+      </div>
+    </div>
+</section>
 
   <!-- 
     ===== PORTFOLIO SECTION =====
@@ -298,11 +417,105 @@
     - Filter controls
     - Hover effects
   -->
-  <section id="portfolio" class="portfolio">
-    <!-- @portfolio-dev will work here -->
-  </section>
+ 
 
   <!-- 
+    Assignee: @Kesa1203
+    Tasks:
+    - 4 metric cards
+    - Animated counters
+    Notes:
+    - Number formatting
+    - Responsive layout
+  -->
+<!-- Portfolio Section -->
+<section class="jw-portfolio-section">
+  <div class="jw-container">
+    <h2 class="jw-section-heading">My Success Work</h2>
+    
+    <!-- Project Grid -->
+    <div class="jw-work-grid">
+      <div class="jw-project-card">
+        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+             alt="Web Design Project" class="jw-project-image">
+        <div class="jw-project-overlay">
+          <h3 class="jw-project-title">Web Design</h3>
+          <p class="jw-project-description">100% Responsive</p>
+        </div>
+      </div>
+      
+      <div class="jw-project-card">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+             alt="Mobile App Project" class="jw-project-image">
+        <div class="jw-project-overlay">
+          <h3 class="jw-project-title">Mobile App</h3>
+          <p class="jw-project-description">iOS & Android</p>
+        </div>
+      </div>
+      
+      <div class="jw-project-card">
+        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+             alt="Branding Project" class="jw-project-image">
+        <div class="jw-project-overlay">
+          <h3 class="jw-project-title">Branding</h3>
+          <p class="jw-project-description">Logo & Identity</p>
+        </div>
+      </div>
+      
+      <div class="jw-project-card">
+        <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+             alt="UI/UX Project" class="jw-project-image">
+        <div class="jw-project-overlay">
+          <h3 class="jw-project-title">UI/UX</h3>
+          <p class="jw-project-description">User Experience</p>
+        </div>
+      </div>
+      
+      <div class="jw-project-card">
+        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+             alt="Graphic Design Project" class="jw-project-image">
+        <div class="jw-project-overlay">
+          <h3 class="jw-project-title">Graphic Design</h3>
+          <p class="jw-project-description">Print & Digital</p>
+        </div>
+      </div>
+      
+      <div class="jw-project-card">
+        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
+             alt="Development Project" class="jw-project-image">
+        <div class="jw-project-overlay">
+          <h3 class="jw-project-title">Development</h3>
+          <p class="jw-project-description">Full Stack</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Brand Section (same width as portfolio) -->
+  <div class="jw-container">
+    <div class="jw-brands-section">
+      <div class="jw-brands-grid">
+        <div class="jw-brand-item">
+          <i class="fas fa-bread-slice jw-brand-icon"></i>
+          <span class="jw-brand-tooltip">Gluten Free</span>
+        </div>
+        <div class="jw-brand-item">
+          <i class="fas fa-spa jw-brand-icon"></i>
+          <span class="jw-brand-tooltip">Massage & Spa</span>
+        </div>
+        <div class="jw-brand-item">
+          <i class="fas fa-drumstick-bite jw-brand-icon"></i>
+          <span class="jw-brand-tooltip">Butchery</span>
+        </div>
+        <div class="jw-brand-item">
+          <i class="fas fa-leaf jw-brand-icon"></i>
+          <span class="jw-brand-tooltip">Natural</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 
     ===== FOOTER SECTION =====
     Assignee: @Derick-Ochieng-Owino
     Tasks:
@@ -319,21 +532,35 @@
           <p><i class="fas fa-envelope"></i> info@example.com</p>
           <p><i class="fas fa-map-marker-alt"></i> 208 Avenue Street, UK - 62617</p>
         </div>
-        
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy 2025 UI Portfolio</p>
+      <p class="copyright">&copy; 2025 UI Portfolio</p>
       <div class="social-icons">
         <a href="#"><i class="fab fa-facebook-f icon"></i></a>
-        <a href="#"><i class="fab fa-twitter icon" ></i></a>
+        <a href="#"><i class="fab fa-twitter icon"></i></a>
         <a href="#"><i class="fab fa-google-plus-g icon"></i></a>
         <a href="#"><i class="fab fa-vk icon"></i></a>
-        <a href="#hero"><i class="fas fa-arrow-up arrow"></i>
-        </a>
+        <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
+        <a href="#hero" class="arrow-link"><i class="fas fa-arrow-up arrow"></i></a>
       </div>
     </div>
   </footer>
+
+  <!-- 
+
+
+
+<!-- 
+
+    ===== SCRIPTS =====
+    Assignee: @FaithKMuasya
+    Tasks:
+    - Main app logic
+    - Section-specific scripts
+    - Performance optimizations
+  -->
+
 
   <script src="assets/js/main.js"></script>
 </body>
@@ -343,4 +570,4 @@
   - Ensure all sections are responsive and accessible.
   - Follow best practices for HTML5 and CSS3.
   - Use semantic HTML where applicable.
-  - Validate the final code for errors and performance.
+  - Validate the final code for errors and performance. -->
