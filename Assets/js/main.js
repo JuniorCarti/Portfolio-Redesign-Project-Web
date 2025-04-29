@@ -1,4 +1,11 @@
 
+
+/*All your javascript code goes here*/
+// Example: Function to show an alert
+//function showAlert() {
+    //alert("Hello, this is an alert!");
+//}
+
 document.addEventListener("DOMContentLoaded", () => {
   const counters = document.querySelectorAll(".counter");
   const speed = 200; // Adjust speed for animation
@@ -19,12 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     updateCount();
   });
+});
 
-/*All your javascript code goes here*/
-// Example: Function to show an alert
-//function showAlert() {
-    //alert("Hello, this is an alert!");
-//}
 
 const menuToggle = document.querySelector('.menu-toggle'); // Hamburger icon
 const navLinks = document.querySelector('.nav-links'); // Navigation list
