@@ -18,16 +18,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
+.hero {
   font-family: 'Poppins', sans-serif;
   background-color: #397682;
   color: #fff;
   background-image: url('../../..//images/yes.jpg'); /*image path */
-  background-size: cover; /* Makes sure the image covers the entire page */
-  background-position: center; /* Centers the image on the page */
+  background-size: cover; /* Makes sure the image covers the hero section */
+  background-position: center; /* Centers the image within the hero section */
   background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+  height: 100vh; /* Adjust the height based on your design (full viewport height, for example) */
 }
+
 
 /* Navbar */
 .navbar {
