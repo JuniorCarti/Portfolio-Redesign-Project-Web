@@ -105,12 +105,11 @@ Each main section is clearly commented like this:
 
 # 🔀 Branching Strategy
 
-- Each contributor must **create a branch** from `main`:
+- Each contributor must **checkout from a branch** from `main`:
   ```
   git checkout -b section-hero-redesign
   ```
-- Name your branch clearly based on your section.
-- After completing your work, **push your branch** and create a **Pull Request**.
+- After completing your work, **push to branch associated with your task** and create a **Pull Request**.
 - Merge only after review.
 
 ---
