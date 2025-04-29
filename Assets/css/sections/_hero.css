@@ -10,3 +10,385 @@
   - variables.css for colors
   - reset.css for base styles
 */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  font-family: 'Poppins', sans-serif;
+  background-color: #397682;
+  color: #fff;
+  background-image: url('../../..//images/yes.jpg'); /*image path */
+  background-size: cover; /* Makes sure the image covers the hero section */
+  background-position: center; /* Centers the image within the hero section */
+  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+  height: 100vh; /* Adjust the height based on your design (full viewport height, for example) */
+}
+
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  padding: 20px 0;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Logo and Title Container */
+.logo {
+  display: flex; /* Aligns logo and text horizontally */
+  align-items: center; /* Vertically centers the logo and title */
+  margin-left: 8%;
+}
+
+.logo-img {
+  width: 50px; /* Makes the logo smaller */
+  height: auto; /* Maintains the aspect ratio */
+  margin-right: -15px; /* Space between logo and title */
+
+}
+
+.logo h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Navbar Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 23px;
+  flex-grow: 1; /* This makes the nav links grow and take all available space */
+  margin-left: -20%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00b894;
+}
+
+/* Hire Button */
+.hire-btn {
+  background-color: #00b894;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: regular;
+  transition: background 0.3s ease;
+  font-size: 10px;
+}
+
+/* Hover Effect for Hire Button */
+.hire-btn:hover {
+  background-color: #019874;
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #0b2c2c;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content li {
+  padding: 8px 16px;
+
+}
+
+.dropdown-content li a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Dropdown Hover Effects */
+.dropdown-content li:hover {
+  background-color: #019874;
+}
+
+/* Hamburger Menu */
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 28px;
+  color: #fff;
+}
+
+/* Adjusts button positioning: Move "Hire Me" close to "Contact" */
+.nav-links li:last-child {
+  margin-right: 10px; /* Creates space between "Contact" and "Hire Me" */
+}
+
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212; /* Dark background */
+  color: #fff; /* White text in dark mode */
+}
+
+/* Darken other elements too, like links, headings, etc. */
+body.dark-mode .navbar {
+  background-color: #1c1c1c; /* Dark navbar */
+}
+
+body.dark-mode .hero {
+  background-color: #222222; /* Darker hero section */
+}
+
+body.dark-mode .hero-text h1,
+body.dark-mode .hero-text h2,
+body.dark-mode .hero-text p {
+  color: #fff; /* Ensure text is white in the hero section */
+}
+
+body.dark-mode .btn {
+  background-color: #019874; /* Dark mode button color */
+  color: #fff; /* Text color */
+}
+
+body.dark-mode .portfolio-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #151a1b;
+}
+
+body.dark-mode .portfolio-btn:hover {
+  background-color: #fff;
+  color: #0b2c2c;
+}
+
+
+/* Hero Section */
+.hero1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(11, 44, 44, 0.8);
+  z-index: 1;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 5;
+  width: 90%;
+  margin: auto;
+}
+
+.hero-text {
+  max-width: 600px;
+  margin-left: 10%;
+
+}
+
+.hero-text h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 {
+  font-size: 67px;
+  font-size: 40px;  
+  font-weight: bold;
+  color: transparent;  /* Makes the text color transparent */
+  -webkit-text-stroke: 0.4px white;  
+  text-stroke: 2px white;
+  
+}
+
+.hero-text p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  margin-top: 10px;
+
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 25px;
+}
+
+.button-2 {
+  background-color: #00b894;
+  color: #fff;
+  padding: 13px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 12px;
+
+}
+
+.portfolio-btn {
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: regular;
+  transition: background 0.3s ease, color 0.3s ease;
+  background-color: #151a1b76;
+  font-size: 13px;
+}
+
+.portfolio-btn:hover {
+  background-color: #fff;
+  color: #0b2c2c;
+}
+
+
+.hero-image img {
+  width: 350px;
+  width: 100%; /* Makes the image responsive */
+  max-width: 350px; /* Maximum width of the image */
+  height: auto; /* Maintains the aspect ratio */
+
+}
+/* Responsive Design */
+@media (max-width: 992px) {
+  .hero-content {
+      flex-direction: column;  /* Stack the content vertically */
+      text-align: center;
+  }
+
+  .hero-text {
+      max-width: 100%;  /* Removes the max-width on small screens */
+      margin-left: 0;   /* Removes left margin on smaller screens */
+  }
+
+  .hero-image {
+      margin-top: 30px;
+      text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+      display: none;  /* Hides nav links for mobile */
+  }
+
+  .logo{
+      margin-left: -5%;
+  }
+
+  .hero-image img {
+      width: 60%; /* Reduces the size of the image on smaller screens */
+      max-width: 300px; /* Maximum width on smaller screens */
+      margin-right: -40%;
+      margin-top: -35%;
+  }
+
+  .navbar .container {
+      justify-content: space-between;
+  }
+
+  .menu-toggle {
+      display: block;  /* Shows hamburger menu on mobile */
+  }
+
+  .nav-links.active {
+      display: flex;
+      flex-direction: column;  /* Stacks nav links vertically */
+      background-color: #0b2c2c;
+      position: absolute;
+      top: 80px;
+      right: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      gap: 15px;
+  }
+
+  .hero-text h1 {
+      font-size: 40px;  /* Adjusts font size */
+  }
+
+  .hero-text h2 {
+      font-size: 22px;
+      margin-top: 10%;
+
+  }
+
+  .hero-text p {
+      font-size: 14px;
+      line-height: 3;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-text h1 {
+      font-size: 30px;  
+  }
+
+  .hero-text h2 {
+      font-size: 20px;
+      margin-top: 20%;
+  }
+
+  .hero-text p {
+      font-size: 12px;
+  }
+
+  .hero-image img {
+      width: 250px;  /* Resizes image */
+      
+      width: 90%; /* Further reduce the size on very small screens */
+      max-width: 250px; /* Maximum width for small screens */
+      
+  }
+
+  .hero-buttons {
+      flex-direction: column;  /* Stacks the buttons vertically */
+      gap: 20px;
+  }
+
+  .button-2, .portfolio-btn {
+      padding: 10px 20px;  /* Adjusts button padding */
+  }
+}
