@@ -9,13 +9,32 @@
 */
 
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
 
 .bio-card {
   background: #fff;
   display: flex;
   padding: 20px;
+
+  max-width: 1000px;
+  width: 90%;
+  align-items: flex-start;
+  gap: 30px;
+
   width: 100%;
   gap: 30px;
   justify-content: center;
@@ -28,6 +47,7 @@
   width: 250px;
   border-radius: 10px;
   object-fit: cover;
+
   background-color: #38323237;
   padding: 20px;
   border-radius: 10px;
@@ -52,6 +72,7 @@
   font-size: 24px;
   margin-bottom: 20px;
   color: #151414;
+
 }
 
 .bio-description {
@@ -83,6 +104,7 @@
 .follow-me {
   font-size: 14px;
   color: #0c0c0c;
+
 }
 
 .bio-social-icons a {
