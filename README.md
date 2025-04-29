@@ -47,6 +47,18 @@ LICENSE
 | Footer Contact Section Redesign | @Derick-Ochieng-Owino   | Done  |
 
 ---
+## 👥 Development Team
+
+| Role                  | Team Member               |
+|-----------------------|---------------------------|
+| Project Lead          | @JuniorCarti              |
+| Hero Section          | @FaithKMuasya             | 
+| Bio Page              | @LB-Segole                |
+| Services Section      | @LusandaMO                |
+| Skills Section        | @yatiba291                |
+| Stats Section         | @Kesa1203                 |
+| Portfolio Section     | @Mphohlalele90            |
+| Footer Section        | @Derick-Ochieng-Owino     |
 
 # 🚀 Getting Started
 
