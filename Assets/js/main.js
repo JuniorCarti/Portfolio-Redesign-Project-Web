@@ -1,5 +1,14 @@
 
-<<<<<<< HEAD
+
+
+/*All your javascript code goes here*/
+// Example: Function to show an alert
+//function showAlert() {
+    //alert("Hello, this is an alert!");
+//}
+
+
+
 document.addEventListener('DOMContentLoaded', () => {
   console.log("DOM fully loaded and parsed"); // Debugging log
 
@@ -127,7 +136,8 @@ const caseStudies = {
   });
 });
 
-=======
+
+
 document.addEventListener("DOMContentLoaded", () => {
   const counters = document.querySelectorAll(".counter");
   const speed = 200; // Adjust speed for animation
@@ -148,13 +158,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     updateCount();
   });
+});
 
->>>>>>> 53ac563df003eb8e940ffe7a2d72cb8caf1f5328
 /*All your javascript code goes here*/
 // Example: Function to show an alert
 //function showAlert() {
     //alert("Hello, this is an alert!");
 //}
+
 
 const menuToggle = document.querySelector('.menu-toggle'); // Hamburger icon
 const navLinks = document.querySelector('.nav-links'); // Navigation list
