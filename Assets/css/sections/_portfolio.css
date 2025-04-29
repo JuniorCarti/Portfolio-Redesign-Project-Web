@@ -1,9 +1,138 @@
-/* 
-  === PORTFOLIO STYLES ===
-  Assignee: @derick ochieng owino
-  Tasks:
-  - Masonry grid layout
-  - Project hover overlays
-  - Filtering system
-  - Lightbox gallery
-*/
+/* Main Section Styles */
+.jw-portfolio-section {
+  padding: 60px 0 0;
+}
+
+.jw-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.jw-section-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Project Grid Styles */
+.jw-work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-bottom: 60px;
+}
+
+.jw-project-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.jw-project-card:hover {
+  transform: translateY(-10px);
+}
+
+.jw-project-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Full-width Green Brand Section */
+.jw-brands-container {
+  background-color: #2ecc71;
+  margin: 0 20px;
+  border-radius: 8px;
+}
+
+.jw-brands-section {
+  padding: 40px 0;
+}
+
+.jw-brands-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.jw-brand-item {
+  position: relative;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.jw-brand-icon {
+  transition: all 0.3s ease;
+}
+
+.jw-brand-item:hover .jw-brand-icon {
+  transform: scale(1.2);
+}
+
+.jw-brand-tooltip {
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.jw-brand-item:hover .jw-brand-tooltip {
+  opacity: 1;
+  visibility: visible;
+  bottom: -40px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .jw-work-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .jw-section-heading {
+    font-size: 2rem;
+  }
+  
+  .jw-brands-grid {
+    gap: 20px;
+  }
+  
+  .jw-brand-item {
+    font-size: 2rem;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .jw-brands-grid {
+    gap: 15px;
+  }
+  
+  .jw-brand-item {
+    font-size: 1.8rem;
+    padding: 8px;
+  }
+  
+  .jw-brand-tooltip {
+    font-size: 0.7rem;
+    bottom: -35px;
+  }
+}
